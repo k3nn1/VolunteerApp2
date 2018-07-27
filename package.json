@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "## Overview This application will help the user to find a volunteering opportunity.  The user will be able to select the service area of interest, the demographic group in need, and the general location.  On search, the application will provide a list of opportunities, who is hosting each one, and the link to the website advertising the opportunity.",
   "main": "server.js",
+  "engines": {
+    "yarn": "1.4.0",
+    "node": "9.2.1"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
